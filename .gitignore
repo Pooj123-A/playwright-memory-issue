@@ -1,0 +1,9 @@
+
+# ignore node_modules
+node_modules
+# ignore playwright caches
+playwright/.cache/*
+playwright-report/*
+
+# ignore pprof generated files
+pprof/*

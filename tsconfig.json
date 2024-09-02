@@ -1,0 +1,15 @@
+{
+	"extends": "./tsconfig.base.json",
+	"ts-node": {
+		"transpileOnly": true,
+		"files": true,
+		"compilerOptions": {
+			"target": "es6",
+			"module": "commonjs",
+			"jsx": "react",
+			"esModuleInterop": true,
+			"strict": true,
+			"skipLibCheck": true
+		}
+	}
+}
