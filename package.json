@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " node --require pprof-it ./node_modules/.bin/playwright test"
+    "test": "playwright test"
   },
   "dependencies": {
     "@playwright/experimental-ct-react": "1.42.0",
