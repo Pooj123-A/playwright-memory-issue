@@ -1,0 +1,13 @@
+/**
+ * This tsconfig is the base tsconfig for all tsconfigs that have project references
+ */
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "out-tsc/src/reference-base",
+        "noEmit": false,
+        "composite": true,
+        "declaration": true,
+        "emitDeclarationOnly": true
+    },
+  }
