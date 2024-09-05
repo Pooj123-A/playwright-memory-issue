@@ -27,6 +27,21 @@ test("should work", async ({ mount }) => {
 });
 `;
 
+  const tsconfigTemplate = (references) =>
+    JSON.stringify(
+      {
+        extends: "../../tsconfig.base.json",
+        include: ["./**/*.ts", "./**/*.tsx"],
+        compilerOptions: {
+          types: ["webpack-env"],
+          composite: true,
+        },
+        references,
+      },
+      null,
+      2
+    );
+
   for (let i = 1; i <= totalModules; i++) {
     const moduleDir = path.join(srcDir, `module${i}`);
 
@@ -37,15 +52,23 @@ test("should work", async ({ mount }) => {
 
     const appFilePath = path.join(moduleDir, `App.tsx`);
     const testSpecFilePath = path.join(moduleDir, `test.spec.tsx`);
+    const tsconfigFilePath = path.join(moduleDir, `tsconfig.app.json`);
 
-    // Write the App and test spec files
+    // Determine references for the current module
+    const references = [];
+    for (let j = i + 1; j <= i + 10 && j <= totalModules; j++) {
+      references.push({ path: `../module${j}/tsconfig.app.json` });
+    }
+
+    // Write the App, test spec, and tsconfig files
     fs.writeFileSync(appFilePath, appTemplate(), "utf8");
     fs.writeFileSync(testSpecFilePath, testSpecTemplate(), "utf8");
+    fs.writeFileSync(tsconfigFilePath, tsconfigTemplate(references), "utf8");
   }
 
   console.log(
-    `${totalModules} module directories created in 'src/', each with App.tsx and test.spec.tsx files.`
+    `${totalModules} module directories created in 'src/', each with App.tsx, test.spec.tsx, and tsconfig.app.json files.`
   );
 };
 
-generateModuleFiles(3000);
+generateModuleFiles(2000);

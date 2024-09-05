@@ -1,0 +1,3010 @@
+{
+  "extends": "./tsconfig.references-base.json",
+  "include": ["./**/*.ts", "./**/*.tsx"],
+  "compilerOptions": {
+    "types": [],
+    "composite": true
+  },
+  "references": [
+    {
+      "path": "./src/module1/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module2/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module3/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module4/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module5/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module6/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module7/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module8/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module9/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module10/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module11/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module12/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module13/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module14/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module15/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module16/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module17/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module18/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module19/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module20/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module21/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module22/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module23/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module24/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module25/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module26/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module27/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module28/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module29/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module30/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module31/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module32/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module33/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module34/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module35/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module36/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module37/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module38/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module39/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module40/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module41/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module42/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module43/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module44/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module45/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module46/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module47/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module48/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module49/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module50/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module51/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module52/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module53/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module54/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module55/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module56/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module57/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module58/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module59/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module60/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module61/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module62/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module63/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module64/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module65/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module66/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module67/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module68/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module69/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module70/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module71/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module72/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module73/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module74/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module75/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module76/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module77/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module78/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module79/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module80/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module81/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module82/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module83/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module84/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module85/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module86/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module87/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module88/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module89/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module90/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module91/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module92/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module93/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module94/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module95/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module96/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module97/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module98/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module99/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module100/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module101/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module102/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module103/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module104/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module105/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module106/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module107/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module108/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module109/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module110/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module111/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module112/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module113/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module114/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module115/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module116/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module117/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module118/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module119/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module120/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module121/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module122/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module123/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module124/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module125/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module126/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module127/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module128/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module129/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module130/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module131/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module132/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module133/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module134/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module135/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module136/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module137/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module138/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module139/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module140/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module141/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module142/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module143/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module144/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module145/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module146/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module147/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module148/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module149/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module150/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module151/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module152/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module153/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module154/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module155/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module156/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module157/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module158/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module159/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module160/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module161/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module162/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module163/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module164/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module165/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module166/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module167/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module168/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module169/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module170/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module171/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module172/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module173/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module174/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module175/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module176/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module177/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module178/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module179/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module180/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module181/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module182/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module183/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module184/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module185/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module186/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module187/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module188/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module189/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module190/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module191/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module192/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module193/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module194/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module195/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module196/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module197/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module198/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module199/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module200/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module201/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module202/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module203/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module204/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module205/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module206/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module207/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module208/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module209/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module210/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module211/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module212/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module213/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module214/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module215/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module216/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module217/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module218/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module219/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module220/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module221/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module222/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module223/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module224/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module225/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module226/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module227/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module228/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module229/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module230/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module231/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module232/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module233/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module234/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module235/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module236/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module237/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module238/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module239/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module240/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module241/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module242/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module243/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module244/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module245/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module246/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module247/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module248/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module249/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module250/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module251/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module252/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module253/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module254/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module255/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module256/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module257/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module258/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module259/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module260/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module261/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module262/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module263/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module264/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module265/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module266/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module267/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module268/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module269/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module270/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module271/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module272/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module273/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module274/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module275/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module276/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module277/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module278/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module279/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module280/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module281/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module282/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module283/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module284/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module285/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module286/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module287/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module288/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module289/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module290/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module291/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module292/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module293/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module294/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module295/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module296/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module297/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module298/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module299/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module300/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module301/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module302/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module303/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module304/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module305/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module306/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module307/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module308/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module309/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module310/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module311/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module312/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module313/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module314/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module315/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module316/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module317/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module318/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module319/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module320/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module321/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module322/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module323/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module324/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module325/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module326/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module327/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module328/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module329/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module330/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module331/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module332/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module333/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module334/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module335/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module336/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module337/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module338/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module339/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module340/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module341/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module342/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module343/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module344/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module345/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module346/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module347/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module348/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module349/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module350/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module351/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module352/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module353/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module354/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module355/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module356/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module357/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module358/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module359/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module360/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module361/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module362/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module363/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module364/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module365/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module366/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module367/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module368/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module369/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module370/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module371/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module372/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module373/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module374/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module375/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module376/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module377/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module378/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module379/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module380/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module381/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module382/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module383/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module384/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module385/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module386/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module387/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module388/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module389/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module390/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module391/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module392/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module393/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module394/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module395/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module396/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module397/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module398/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module399/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module400/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module401/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module402/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module403/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module404/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module405/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module406/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module407/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module408/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module409/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module410/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module411/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module412/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module413/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module414/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module415/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module416/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module417/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module418/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module419/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module420/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module421/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module422/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module423/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module424/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module425/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module426/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module427/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module428/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module429/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module430/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module431/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module432/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module433/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module434/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module435/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module436/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module437/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module438/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module439/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module440/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module441/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module442/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module443/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module444/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module445/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module446/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module447/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module448/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module449/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module450/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module451/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module452/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module453/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module454/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module455/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module456/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module457/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module458/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module459/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module460/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module461/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module462/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module463/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module464/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module465/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module466/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module467/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module468/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module469/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module470/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module471/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module472/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module473/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module474/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module475/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module476/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module477/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module478/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module479/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module480/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module481/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module482/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module483/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module484/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module485/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module486/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module487/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module488/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module489/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module490/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module491/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module492/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module493/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module494/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module495/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module496/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module497/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module498/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module499/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module500/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module501/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module502/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module503/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module504/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module505/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module506/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module507/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module508/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module509/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module510/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module511/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module512/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module513/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module514/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module515/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module516/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module517/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module518/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module519/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module520/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module521/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module522/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module523/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module524/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module525/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module526/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module527/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module528/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module529/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module530/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module531/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module532/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module533/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module534/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module535/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module536/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module537/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module538/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module539/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module540/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module541/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module542/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module543/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module544/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module545/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module546/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module547/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module548/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module549/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module550/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module551/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module552/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module553/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module554/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module555/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module556/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module557/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module558/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module559/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module560/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module561/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module562/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module563/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module564/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module565/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module566/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module567/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module568/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module569/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module570/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module571/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module572/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module573/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module574/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module575/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module576/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module577/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module578/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module579/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module580/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module581/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module582/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module583/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module584/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module585/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module586/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module587/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module588/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module589/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module590/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module591/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module592/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module593/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module594/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module595/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module596/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module597/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module598/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module599/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module600/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module601/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module602/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module603/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module604/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module605/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module606/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module607/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module608/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module609/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module610/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module611/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module612/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module613/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module614/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module615/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module616/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module617/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module618/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module619/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module620/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module621/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module622/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module623/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module624/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module625/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module626/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module627/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module628/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module629/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module630/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module631/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module632/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module633/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module634/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module635/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module636/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module637/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module638/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module639/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module640/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module641/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module642/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module643/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module644/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module645/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module646/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module647/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module648/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module649/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module650/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module651/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module652/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module653/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module654/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module655/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module656/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module657/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module658/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module659/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module660/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module661/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module662/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module663/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module664/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module665/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module666/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module667/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module668/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module669/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module670/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module671/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module672/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module673/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module674/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module675/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module676/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module677/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module678/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module679/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module680/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module681/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module682/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module683/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module684/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module685/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module686/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module687/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module688/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module689/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module690/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module691/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module692/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module693/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module694/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module695/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module696/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module697/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module698/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module699/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module700/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module701/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module702/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module703/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module704/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module705/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module706/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module707/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module708/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module709/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module710/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module711/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module712/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module713/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module714/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module715/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module716/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module717/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module718/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module719/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module720/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module721/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module722/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module723/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module724/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module725/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module726/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module727/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module728/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module729/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module730/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module731/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module732/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module733/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module734/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module735/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module736/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module737/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module738/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module739/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module740/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module741/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module742/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module743/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module744/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module745/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module746/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module747/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module748/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module749/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module750/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module751/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module752/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module753/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module754/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module755/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module756/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module757/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module758/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module759/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module760/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module761/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module762/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module763/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module764/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module765/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module766/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module767/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module768/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module769/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module770/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module771/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module772/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module773/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module774/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module775/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module776/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module777/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module778/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module779/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module780/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module781/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module782/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module783/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module784/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module785/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module786/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module787/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module788/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module789/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module790/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module791/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module792/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module793/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module794/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module795/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module796/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module797/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module798/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module799/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module800/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module801/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module802/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module803/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module804/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module805/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module806/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module807/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module808/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module809/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module810/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module811/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module812/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module813/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module814/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module815/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module816/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module817/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module818/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module819/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module820/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module821/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module822/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module823/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module824/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module825/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module826/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module827/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module828/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module829/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module830/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module831/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module832/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module833/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module834/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module835/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module836/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module837/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module838/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module839/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module840/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module841/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module842/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module843/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module844/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module845/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module846/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module847/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module848/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module849/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module850/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module851/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module852/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module853/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module854/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module855/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module856/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module857/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module858/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module859/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module860/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module861/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module862/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module863/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module864/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module865/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module866/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module867/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module868/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module869/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module870/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module871/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module872/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module873/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module874/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module875/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module876/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module877/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module878/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module879/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module880/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module881/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module882/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module883/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module884/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module885/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module886/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module887/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module888/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module889/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module890/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module891/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module892/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module893/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module894/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module895/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module896/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module897/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module898/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module899/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module900/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module901/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module902/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module903/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module904/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module905/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module906/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module907/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module908/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module909/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module910/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module911/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module912/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module913/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module914/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module915/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module916/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module917/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module918/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module919/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module920/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module921/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module922/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module923/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module924/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module925/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module926/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module927/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module928/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module929/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module930/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module931/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module932/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module933/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module934/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module935/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module936/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module937/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module938/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module939/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module940/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module941/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module942/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module943/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module944/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module945/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module946/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module947/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module948/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module949/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module950/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module951/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module952/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module953/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module954/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module955/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module956/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module957/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module958/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module959/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module960/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module961/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module962/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module963/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module964/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module965/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module966/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module967/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module968/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module969/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module970/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module971/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module972/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module973/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module974/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module975/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module976/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module977/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module978/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module979/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module980/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module981/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module982/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module983/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module984/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module985/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module986/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module987/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module988/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module989/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module990/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module991/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module992/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module993/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module994/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module995/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module996/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module997/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module998/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module999/tsconfig.app.json"
+    },
+    {
+      "path": "./src/module1000/tsconfig.app.json"
+    }
+  ]
+}

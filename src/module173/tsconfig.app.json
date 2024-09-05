@@ -1,0 +1,45 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": [
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
+  "compilerOptions": {
+    "types": [
+      "webpack-env"
+    ],
+    "composite": true
+  },
+  "references": [
+    {
+      "path": "../module174/tsconfig.app.json"
+    },
+    {
+      "path": "../module175/tsconfig.app.json"
+    },
+    {
+      "path": "../module176/tsconfig.app.json"
+    },
+    {
+      "path": "../module177/tsconfig.app.json"
+    },
+    {
+      "path": "../module178/tsconfig.app.json"
+    },
+    {
+      "path": "../module179/tsconfig.app.json"
+    },
+    {
+      "path": "../module180/tsconfig.app.json"
+    },
+    {
+      "path": "../module181/tsconfig.app.json"
+    },
+    {
+      "path": "../module182/tsconfig.app.json"
+    },
+    {
+      "path": "../module183/tsconfig.app.json"
+    }
+  ]
+}
